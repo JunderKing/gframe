@@ -1,0 +1,23 @@
+debug: true
+server:
+  port: ":7000"
+
+log:
+  path: "logs/"
+  name: "gframe"
+  ext: "log"
+  timeFormat: "20060102"
+
+database:
+  driver: 'mysql'
+  host: 127.0.0.1
+  port: 3306
+  db: 'king_gframe'
+  username: root
+  password: root
+  prefix: t_
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
